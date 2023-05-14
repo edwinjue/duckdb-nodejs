@@ -1,9 +1,8 @@
 # duckdb-nodejs
 
-Quick Start
-
 POC - The following will seed a persistent duckdb database called `db/master.duckdb` with 311 request data for 2023 using a CSV file downloaded from data.lacity.org and output the result of a sample SQL query `SELECT srnumber FROM requests limit 1` to the console. 
 
+# Quick Start
 Perform the following steps from the terminal:
 * git clone git@github.com:edwinjue/duckdb-nodejs.git
 * cd duckdb-nodejs
