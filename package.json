@@ -1,11 +1,12 @@
 {
-  "name": "duckDb",
-  "version": "1.0.0",
-  "description": "",
+  "name": "duckdb-nodejs",
+  "version": "0.0.1",
+  "description": "duckdb nodejs API example",
   "main": "index.js",
   "type": "module",
   "private": true,
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
