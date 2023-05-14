@@ -13,4 +13,6 @@ Perform the following steps from the terminal:
 * npm i
 * node index.js
 
-Note: Once `db/master.duckdb` has been created, you can query it immediately by loading it with `const db = new duckdb.Database('./db/master.duckdb')` and perform SQL queries using duckdb `db.*` methods
+Note: Once `db/master.duckdb` has been created, you can query it immediately by loading it with `const db = new duckdb.Database('./db/master.duckdb')` and perform SQL queries using duckdb `db.*` methods. 
+
+For more info refer to the [API documentation](https://duckdb.org/docs/api/nodejs/overview.html).
