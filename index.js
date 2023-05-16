@@ -10,7 +10,7 @@ db.exec("CREATE TABLE requests(SRNumber VARCHAR(255),CreatedDate TIMESTAMP,Updat
 db.exec("COPY requests from './data/requests.csv' ( HEADER, DELIMITER ',', TIMESTAMPFORMAT '%m/%d/%Y %H:%M:%S %p')")
 
 // Query it
-db.all('SELECT srnumber FROM requests limit 1', function(err, res) {
+db.all('SELECT * FROM requests limit 1', function(err, res) {
   try{
     if (err) {
       throw err;
