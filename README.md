@@ -12,7 +12,7 @@ Perform the following steps from the terminal:
 * mkdir db
 * curl -o data/requests.csv -O https://data.lacity.org/api/views/4a4x-mna2/rows.csv?accessType=DOWNLOAD
 * npm i
-* node index.js
+* node [index.js](https://github.com/edwinjue/duckdb-nodejs/blob/main/index.js)
 
 Note: Once `db/master.duckdb` has been created, you can query it immediately by loading it with `const db = new duckdb.Database('./db/master.duckdb')` and perform SQL queries using duckdb `db.*` methods. 
 
