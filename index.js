@@ -25,3 +25,5 @@ db.all(`SELECT * FROM ${table_name} limit 1`, function(err, res) {
     console.error("Error occured:",e)
   }
 });
+
+db.close()
